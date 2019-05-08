@@ -1,7 +1,7 @@
 # S3 Massive Sync
 
 How can I sync massive amounts of S3 data from a bucket in one region
-to another?
+to another really fast?
 
 I searched around and found solutions based on Lambda, AWS Batch, etc.
 The following method is by far simpler.
