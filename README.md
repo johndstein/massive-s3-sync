@@ -6,8 +6,6 @@ to another?
 I searched around and found solutions based on Lambda, AWS Batch, etc.
 The following method is by far simpler.
 
-We were able to sync between buckets in different regions.
-
 First, spin up an AWS EC2 `c5n.18xlarge` or something comparable. It
 will cost you $4.00/hr.
 
