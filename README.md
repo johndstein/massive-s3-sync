@@ -128,3 +128,5 @@ done \
 
 NOTE: All of this is thanks to a guy named Paul who whipped it up in
 a few minutes. You would like to hire Paul. So would I.
+
+![htop](htop.png)
