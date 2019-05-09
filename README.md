@@ -121,7 +121,7 @@ while true; do
     [[ $start -lt $end ]] && break
 done \
 | tee files.txt \
-| ./parallel --ungroup -j 4 aws s3 cp \
+| ./parallel --ungroup -j 1000 aws s3 cp \
   s3://some-bucket/{} \
   s3://other-bucket/{}
 ```
