@@ -120,7 +120,7 @@ while true; do
     start=$((start -(60*60)))
     [[ $start -lt $end ]] && break
 done \
-| tee hexmny274.raw \
+| tee files.txt \
 | ./parallel --ungroup -j 4 aws s3 cp \
   s3://some-bucket/{} \
   s3://other-bucket/{}
